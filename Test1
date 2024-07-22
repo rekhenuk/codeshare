@@ -1,1 +1,80 @@
-Hi 
+Test Case 1: Create a New Purchase Order
+Description: Verify that a new purchase order can be created successfully.
+Steps:
+Navigate to the Purchase Order section.
+Click on "Create New Purchase Order".
+Enter valid details in all mandatory fields (e.g., vendor, item, quantity, price).
+Click on "Save" or "Submit".
+Expected Result: A new purchase order is created, and a confirmation message is displayed.
+Test Case 2: Validate Mandatory Fields
+Description: Ensure that all mandatory fields are validated when creating a purchase order.
+Steps:
+Navigate to the Purchase Order section.
+Click on "Create New Purchase Order".
+Leave one or more mandatory fields blank.
+Attempt to save or submit the purchase order.
+Expected Result: The system should display validation messages indicating that the mandatory fields cannot be left blank.
+Test Case 3: Edit an Existing Purchase Order
+Description: Verify that an existing purchase order can be edited.
+Steps:
+Navigate to the Purchase Order section.
+Select an existing purchase order.
+Click on "Edit".
+Modify the necessary fields (e.g., quantity, price).
+Click on "Save" or "Submit".
+Expected Result: The purchase order is updated with the new details, and a confirmation message is displayed.
+Test Case 4: Delete a Purchase Order
+Description: Ensure that a purchase order can be deleted.
+Steps:
+Navigate to the Purchase Order section.
+Select a purchase order.
+Click on "Delete".
+Confirm the deletion action.
+Expected Result: The purchase order is deleted from the system, and a confirmation message is displayed.
+Test Case 5: Search for a Purchase Order
+Description: Verify that the search functionality works for purchase orders.
+Steps:
+Navigate to the Purchase Order section.
+Enter search criteria (e.g., purchase order number, vendor name).
+Click on "Search".
+Expected Result: The system displays the purchase orders matching the search criteria.
+Test Case 6: Validate Purchase Order Status Update
+Description: Ensure that the status of a purchase order can be updated correctly.
+Steps:
+Navigate to the Purchase Order section.
+Select a purchase order.
+Update the status (e.g., from "Pending" to "Approved").
+Click on "Save" or "Submit".
+Expected Result: The status of the purchase order is updated, and a confirmation message is displayed.
+Test Case 7: Add Multiple Items to a Purchase Order
+Description: Verify that multiple items can be added to a single purchase order.
+Steps:
+Navigate to the Purchase Order section.
+Click on "Create New Purchase Order".
+Enter details for the first item.
+Click on "Add Item" to add another item.
+Enter details for the additional items.
+Click on "Save" or "Submit".
+Expected Result: The purchase order is created with multiple items listed, and a confirmation message is displayed.
+Test Case 8: Verify Purchase Order Total Calculation
+Description: Ensure that the total amount for a purchase order is calculated correctly.
+Steps:
+Navigate to the Purchase Order section.
+Click on "Create New Purchase Order".
+Enter the item details with quantity and unit price.
+Click on "Save" or "Submit".
+Expected Result: The system calculates and displays the total amount correctly based on the item details provided.
+Test Case 9: Validate Date Fields
+Description: Ensure that date fields in the purchase order form are validated correctly.
+Steps:
+Navigate to the Purchase Order section.
+Click on "Create New Purchase Order".
+Enter invalid dates (e.g., a future date for the order date or an end date before the start date).
+Attempt to save or submit the purchase order.
+Expected Result: The system displays validation messages indicating the date errors.
+Test Case 10: Check Permission Levels
+Description: Verify that different user roles have appropriate permissions for purchase orders.
+Steps:
+Log in as a user with different roles (e.g., admin, manager, regular user).
+Attempt to create, edit, delete, or view purchase orders based on the role permissions.
+Expected Result: The system allows or restricts access to purchase order functions based on the user's role permissions.
